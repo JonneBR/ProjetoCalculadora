@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+.expressao-calculo {
+  margin: 20px 0;
+}
+.expressao-calculo select {
+  background-color: #fff;
+  border: 0;
+  font-family: Lato;
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.container {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.form-control {
+  margin: 10px;
+  position: relative;
+}
+
+.form-control input {
+  border: 2px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Lato;
+}
+.form button {
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: cornflowerblue;
+  color: black;
+  width: 100%;
+  font-size: 25px;
+  font-family: Lato;
+}
+
+#resultado {
+  border: 0;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  background-color: fff;
+  color: black;
+  width: 50%;
+  font-size: 25px;
+  font-family: Lato;
+}

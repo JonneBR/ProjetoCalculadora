@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="expressao-calculo">
+      <div class="form-control">
+        <input type="text" id="resultado" disabled />
+      </div>
+      <label>Selecione uma expressão:</label>
+      <select id="calculo">
+        <option>Soma</option>
+        <option>Subtração</option>
+        <option>Multiplicação</option>
+        <option>Divisão</option>
+      </select>
+    </div>
+
+    <div class="container">
+      <form id="form" class="form">
+        <div class="form-control">
+          <input type="text" id="numero1" />
+        </div>
+        <div class="form-control">
+          <input type="text" id="numero2" />
+        </div>
+
+        <button id="calcular">Calcular</button>
+        <button id="reiniciar">Reiniciar</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
